@@ -1,0 +1,40 @@
+<svg width="400" height="80" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradientRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff3300"/>
+      <stop offset="100%" stop-color="#ff6600"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Text -->
+  <text x="0" y="55"
+        font-family="Arial Black, sans-serif"
+        font-size="48"
+        fill="url(#gradientRed)"
+        filter="url(#glow)"
+        letter-spacing="4">
+    HUNTFLIX
+  </text>
+
+  <!-- Crosshair circle -->
+  <circle cx="350" cy="40" r="28" stroke="#ff3300" stroke-width="4" fill="none"/>
+
+  <!-- Crosshair lines -->
+  <line x1="350" y1="8" x2="350" y2="72" stroke="#ff3300" stroke-width="4"/>
+  <line x1="322" y1="40" x2="378" y2="40" stroke="#ff3300" stroke-width="4"/>
+
+  <!-- Flame icon -->
+  <path d="M350 55
+           C345 48, 353 45, 350 35
+           C355 42, 347 45, 350 55
+           Z"
+        fill="url(#gradientRed)"
+        filter="url(#glow)"/>
+</svg>

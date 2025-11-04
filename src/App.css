@@ -1,0 +1,135 @@
+#root {
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.swiper {
+  width: 100% !important;
+  padding-left: 8rem !important;
+}
+.swiper-wrapper {
+  margin-left: 0 !important;
+}
+
+.text-primary,.MuiCardContent-root.css-1jaegk3-MuiCardContent-root,.MuiTypography-root.MuiTypography-body2.css-1wle3ir-MuiTypography-root,.MuiTypography-root.MuiTypography-body2.MuiListItemText-secondary.css-1a1whku-MuiTypography-root,.css-13jqlmp-MuiTypography-root-MuiDialogTitle-root{
+  color: white !important;
+}
+
+#root,html{
+  background-color:#15181C !important;
+}
+
+#movie-field,#type-select{
+  color: white !important;
+}
+
+input:-webkit-autofill {
+  background-color: red !important;
+}
+
+.border-orange{
+  border: 2px solid orange;
+}
+
+.fs-1r{
+  font-size: 1rem !important;
+}
+
+#movie-field{
+  padding: 5px !important;
+}
+
+.slick-next{
+  right: -50px !important;
+  display: none !important;
+}
+
+.slick-prev{
+  left: -50px !important;
+  display: none !important;
+}
+
+.slick-dots{
+  bottom: -100px !important;
+}
+
+.warning-color,.css-trm6af-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select,.slick-dots li.slick-active button:before{
+  color: #DF6704 !important;
+}
+
+.slick-dots li button:before{
+  color: white !important;
+}
+
+.css-trm6af-MuiNativeSelect-root-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select,.slick-dots li.slick-active{
+  border: 0px !important;
+}
+
+.css-1rfqz7c-MuiSvgIcon-root-MuiNativeSelect-root-MuiSelect-icon{
+  color: red !important;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined.MuiSelect-iconOpen.css-azmgtl-MuiSvgIcon-root-MuiNativeSelect-root-MuiSelect-icon{
+  color: red !important;
+}
+
+.css-sc8y68-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{
+  border: 1px solid #DF6704 !important;
+  height: 2.2rem;
+}
+
+#language-select .MuiOutlinedInput-notchedOutline.css-18p5xg2-MuiNotchedOutlined-root-MuiOutlinedInput-notchedOutline{
+  border-color: transparent !important;
+}
+
+.MuiList-root.MuiList-padding.MuiMenu-list.css-1toxriw-MuiList-root-MuiMenu-list li{
+  color: #DF6704 !important;
+
+}
+
+.css-hegfd8-MuiPaper-root-MuiCard-root,.css-1mdwk9i-MuiPaper-root-MuiCard-root,.css-1kxic87-MuiPaper-root-MuiDialog-paper,.css-1uq5n7k-MuiPaper-root-MuiDialog-paper{
+  background-color: transparent !important;
+}
+
+.dark-bg,.MuiDialogTitle-root+.css-kw13he-MuiDialogContent-root,.css-1jaegk3-MuiCardContent-root,.css-130a4nk-MuiDialogActions-root,.css-13jqlmp-MuiTypography-root-MuiDialogTitle-root{
+  background: #1D1F24 !important;
+}
+
+.css-1cb07az-MuiListItem-root{
+  border-radius: 10px;
+}
+
+.css-1cb07az-MuiListItem-root{
+  background-color: #2A2D32 !important;
+}
+.css-1cb07az-MuiListItem-root:hover{
+  background-color: #DF6704 !important;
+}
+
+@media (min-width: 600px) {
+    .css-1ahi5tg-MuiSnackbar-root {
+        left: 40% !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .css-1ahi5tg-MuiSnackbar-root {
+        bottom: 50% !important;
+    }
+}
+
+.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-rizt0-MuiTypography-root{
+  font-size: 0.8rem !important;
+}
+
+.css-1cb07az-MuiListItem-root{
+  min-height: 100px;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  
+}
+
+.MuiList-root.MuiList-padding.MuiMenu-list.css-1toxriw-MuiList-root-MuiMenu-list{
+  background:#2A2D32 ;
+  background-color:#2A2D32  !important;
+}
