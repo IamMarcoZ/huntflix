@@ -4,7 +4,7 @@ import mockedRes from  './avengers.json'
 import mockedRes2 from './batman.json'
 import mockedRes3 from './lepagine.json'
 
-const mock = true;
+const mock = false;
 
 export async function searchByTitle(title:String,showType:string,country:string):Promise<any> {
 
