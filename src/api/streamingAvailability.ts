@@ -1,10 +1,9 @@
-import axios from 'axios';
 import { axiosInstance } from './axiosInstance';
-import mockedRes from  './avengers.json'
-import mockedRes2 from './batman.json'
-import mockedRes3 from './lepagine.json'
+// import mockedRes from  './avengers.json'
+// import mockedRes2 from './batman.json'
+// import mockedRes3 from './lepagine.json'
 
-const mock = false;
+// const mock = false;
 
 export async function searchByTitle(title:String,showType:string,country:string):Promise<any> {
 
@@ -25,13 +24,13 @@ export async function searchByTitle(title:String,showType:string,country:string)
     };
 
     try {
-        if(mock){
-            const response = mockedRes3;
-            return response
-        } else {
+        // if(mock){
+        //     const response = mockedRes3;
+        //     return response
+        // } else {
             const response = await axiosInstance.request(options);
             return response.data;
-        }
+        // }
     } catch (error) {
         
     }

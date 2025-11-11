@@ -1,4 +1,4 @@
-import { useMediaQuery,useTheme,Grow, Avatar, Button, Card, CardContent, CardMedia, Dialog, DialogActions, DialogContent, DialogTitle, Grid, List, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material'
+import { useMediaQuery,useTheme,Grow, Avatar, Button, Card, CardContent, CardMedia, Dialog, DialogActions, DialogContent, DialogTitle, Grid, ListItem, ListItemAvatar, ListItemText, Typography } from '@mui/material'
 
 const LearnMoreModal = ({ selectedFilm,language, open, close }: any) => {
    const theme = useTheme();

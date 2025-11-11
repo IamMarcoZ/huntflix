@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import type { FilmT } from '../types/globalTypes'
 import { Grid } from '@mui/material';
 import LearnMoreModal from './LearnMoreModal';

@@ -1,11 +1,8 @@
-import { Button, Card, CardActions, CardContent, CardMedia, Skeleton, Typography } from '@mui/material'
+import { Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import type { CustomCardPropsT } from '../types/globalTypes'
-import {useState} from 'react'
 
 const CustomCard = ({film,index,learnMore,shortOverview}:CustomCardPropsT) => {
-    const [imageLoaded, setImageLoaded] = useState(false);
-    const imageUrl = film?.imageSet?.horizontalPoster?.w1440;
-    
+
   return (
     <div key={index}>
                 <Card sx={{ minHeight: 350, maxHeight: 350, maxWidth: 300, minWidth: 300, display: 'flex', flexDirection: 'column', borderRadius: 5 }} >
@@ -13,7 +10,6 @@ const CustomCard = ({film,index,learnMore,shortOverview}:CustomCardPropsT) => {
                     component="img"
                     alt={film?.originalTitle}
                     height="160"
-                    onLoad={()=>setImageLoaded(true)}
                     image={film?.imageSet?.horizontalPoster?.w1440}
                   />
                   
